@@ -9,7 +9,7 @@ jobs:
     name: assign reviewer
     steps:
       - name: access-squad assigner
-        id: assigning access squad reviewer
+        id: assigning-access-squad-reviewer
         uses: buildsville/assign-reviewer-by-label@v1
         with:
           token: "${{secrets.GITHUB_TOKEN}}"
