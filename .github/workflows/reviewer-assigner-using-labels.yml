@@ -13,6 +13,6 @@ jobs:
         uses: buildsville/assign-reviewer-by-label@v1
         with:
           token: "${{secrets.GITHUB_TOKEN}}"
-          labels: 'access-squad'
-          reviewers: '[testesdapri]'
+          label: "access-squad"
+          reviewers: "testesdapri"
           remove-when-no-label: 'true'
