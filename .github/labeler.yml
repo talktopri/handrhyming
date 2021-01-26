@@ -1,0 +1,12 @@
+version: v1
+
+labels:
+  - label: "ecosystem"
+    matcher:
+      title: "^ecosystem:.*"
+      body: "(\\n|.)*- \\[x\\] ecosystem(\\n|.)*"
+     
+  - label: "access"
+    matcher:
+      title: "^access:.*"
+      body: "(\\n|.)*- \\[x\\] access(\\n|.)*"
