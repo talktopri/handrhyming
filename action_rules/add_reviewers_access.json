@@ -1,6 +1,0 @@
-{
-  "name": "This is a rule to add @testesdapri as a reviewer for Access squad labels",
-  "includes": [".github/workflows/*"],
-  "action": "review",
-  "users": ["testesdapri"]
-}
